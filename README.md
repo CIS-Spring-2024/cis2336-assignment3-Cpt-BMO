@@ -5,7 +5,7 @@ This is a menu and an order form page that takes in user's input. Built with HTM
 2. quantity checks so that there is a valid quantity before submission
 3. updates to the cart based on user interation with the menu
 
-**usage**
+**Usage**
 1. Browse the menu
 2. click the item you want in the cart
 3. click the cart icon to review item and change quantity or remove from cart
