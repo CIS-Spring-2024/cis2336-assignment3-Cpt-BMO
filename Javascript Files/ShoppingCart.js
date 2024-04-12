@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         body.classList.remove('active');
     });
 
-    const shoppingCartList = document.querySelector('.ListCard');  // updates the price and the quantity in the cart
+    const shoppingCartList = document.querySelector('.MenuItems');  // updates the price and the quantity in the cart
     shoppingCartList.addEventListener('click', event => {
         const target = event.target;
         if (target.classList.contains('quantity-button') || target.classList.contains('remove-item-button')) {
@@ -64,7 +64,7 @@ function updateTotalPrice() {  // updates the total price depending on the item 
 }
 
 function addToCart(item) {  // creates an item with the button, images, name, and price tag
-    const shoppingCartList = document.querySelector('.ListCard');
+    const shoppingCartList = document.querySelector('.MenuItems');
     const existingCartItem = shoppingCartList.querySelector(`[data-id="${item.id}"]`);
 
     if (existingCartItem) {
