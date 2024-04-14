@@ -116,6 +116,10 @@
     margin-right: 0px;
 }
 
+li.cart-item{
+    justify-content: center;
+}
+
 @media screen and (max-width:425px) {
     .cart-popup {
         left: 100%;
