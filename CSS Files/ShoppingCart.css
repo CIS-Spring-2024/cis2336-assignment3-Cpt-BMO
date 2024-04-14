@@ -1,13 +1,14 @@
 .cart-popup {
     position: fixed;
-    top: 0;
+    top: 100px;
     left: 100%;
     width: 500px;
     background-color: rgb(92, 89, 89);
-    height: 100vh;
+    height: 800px;
     transition: 0.5s;
     z-index: 3;
     overflow: scroll;
+    border-radius: 50px;
 }
 
 .cart-popup::-webkit-scrollbar{
@@ -17,11 +18,11 @@
 .cart-popup h2{
     color: goldenrod;
     font-weight: 100;
-    margin: 0;
     padding: 0 20px;
     height: 80px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .cart-popup .checkout{
@@ -119,6 +120,9 @@
     .cart-popup {
         left: 100%;
         width: 425px;
+        top: 0;
+        height: 100vh;
+        border-radius: 0;
     }
 
     .active .cart-popup {
