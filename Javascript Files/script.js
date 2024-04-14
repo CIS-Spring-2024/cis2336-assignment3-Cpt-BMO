@@ -93,8 +93,6 @@ const menuItems = {
   
       menuContainer.appendChild(li);
   });
-  
-  
 }
 
 document.addEventListener("DOMContentLoaded", function() {  // this will display the burger section first when the page loads
