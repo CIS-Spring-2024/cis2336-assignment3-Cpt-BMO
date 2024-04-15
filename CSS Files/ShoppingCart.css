@@ -2,7 +2,7 @@
     position: fixed;
     top: 100px;
     left: 100%;
-    width: 500px;
+    width: 550px;
     background-color: rgb(92, 89, 89);
     height: 800px;
     transition: 0.5s;
@@ -49,7 +49,7 @@
 }
 
 .active .cart-popup {
-    left: calc(100% - 500px);
+    left: calc(100% - 550px);
     transition: left 0.5s ease;
 }
 
